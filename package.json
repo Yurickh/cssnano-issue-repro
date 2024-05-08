@@ -1,0 +1,24 @@
+{
+  "name": "cssnano-issue-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "minify": "postcss input.css > output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yurickh/cssnano-issue-repro.git"
+  },
+  "author": "yurick <yurick.hauschild@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yurickh/cssnano-issue-repro/issues"
+  },
+  "homepage": "https://github.com/Yurickh/cssnano-issue-repro#readme",
+  "dependencies": {
+    "cssnano": "^7.0.1",
+    "postcss": "^8.4.38",
+    "postcss-cli": "^11.0.0"
+  }
+}
